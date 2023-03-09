@@ -76,7 +76,7 @@ print("Showing the contents\n" + contents)
 
 
 
-
+#practicing operators
 print(1 < 2 and 2 < 3)
 print(2 == 4 or 3 >= 1)
 print(not(2 ==2))
