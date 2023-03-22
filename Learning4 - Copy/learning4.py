@@ -231,3 +231,74 @@ print(myString)
 #         else:
 #             out.append(x[i].upper())
 #     return ''.join(out)
+
+
+
+#using maps
+def eatLetters(stringALingy):
+    leftovers = ""
+    for i in range(3, len(stringALingy),1):
+        #print(stringALingy[i]) #for testing
+        leftovers += stringALingy[i]
+    
+    leftovers += "!"
+    return leftovers
+
+
+print(eatLetters("Hello there"))
+
+phrases = ["Hello there","My name is John","Sabbath Day","Rabbit Stew"]
+
+print(list(map(eatLetters, phrases)))
+
+
+#using filters
+def divisibleBySeven(number):
+    if number % 7 == 0:
+        return True
+
+
+someNumbas = [21,13,75,77,18,34,35,29,30,14,364,486,1]
+
+print(list(filter(divisibleBySeven,someNumbas)))
+
+
+#lambdas
+result = lambda number: number % 7 == 0
+
+print(result(14))
+print(result(36))
+
+myResult = list(filter(lambda number: number % 7 == 0, someNumbas))
+print(myResult)
+
+
+
+#practicing
+f = 21
+print(f)
+def changeVal(value):
+    value = 77
+    return value
+
+f = changeVal(f)
+print(f)
+
+#using the global keyword
+meme = 42
+print(meme)
+def convertValue(value):
+    global meme
+    meme = "The answer to life, the universe, and everything"
+    return meme
+
+
+convertValue(meme)
+print(meme)
+
+
+#learning .replace()
+someText = "I want to get rid of spaces"
+someText = someText.replace(" ", "")
+print(someText)
+

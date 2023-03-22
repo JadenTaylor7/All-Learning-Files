@@ -4,3 +4,8 @@ This folder contains:
     -Reading input from a csv file
     -complex functions and problem solving
     -accesing multiple functions to complete a task
+    -maps
+    -filters
+    -lambdas
+    -global keyword
+    -.replace()
