@@ -1,14 +1,2 @@
 This test is on a separate file, wahoo!
 Another python script will attempt to add what's written in here.
-Check it out bro, I just wrote to this file from a
-totally different folder!
-Check it out bro, I just wrote to this file from a
-totally different folder!
-Check it out bro, I just wrote to this file from a
-totally different folder!
-Check it out bro, I just wrote to this file from a
-totally different folder!
-Check it out bro, I just wrote to this file from a
-totally different folder!
-Check it out bro, I just wrote to this file from a
-totally different folder!
