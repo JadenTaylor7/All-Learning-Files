@@ -5,3 +5,4 @@ This folder contains:
     - tough logic
     - accessing classes from other files
     - iterative menus
+    - .gitignore files
